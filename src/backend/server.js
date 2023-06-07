@@ -4,7 +4,7 @@ const cors = require('cors');
 const path = require('path');
 
 const connectionString =
-  'mongodb+srv://M4aXim:Maksim.12356@cluster0.yc7skld.mongodb.net/test?retryWrites=true&w=majority';
+  'yourstuff';
 
 mongoose
   .connect(connectionString, {
