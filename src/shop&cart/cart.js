@@ -138,7 +138,7 @@ function Cart() {
       ))}
       <p style={styles.total}>Total: ${totalPrice.toFixed(2)}</p>
       {checkout ? (
-  <PayPalScriptProvider options={{ "client-id": "AWyjreE1HauZfQVqUwq38GBLXFWDf2EDyyIWU7kHQ5t56YHQqvi9BZEfsPMQcozYN69Px7WcFtXTXCFF" }}>
+  <PayPalScriptProvider options={{ "client-id": "replacewithyourid" }}>
     <PayPalButtons createOrder={createOrder} onApprove={onApprove} />
   </PayPalScriptProvider>
 ) : (
